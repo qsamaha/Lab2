@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Lab1 {
 
 	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
 
 		String choice = "y";
 
@@ -10,14 +11,12 @@ public class Lab1 {
 			System.out.println("Welcome to Grand Circus' Room Detail Generator!");
 			System.out.println(" ");
 
-			Scanner scan = new Scanner(System.in);
-
 			System.out.println("Enter Length: ");
 			double num = scan.nextDouble();
 			System.out.println("Enter Width: ");
 			double num2 = scan.nextDouble();
 			double num3 = num * num2;
-			double num4 = 2 * (num + num2);
+			double num4 = ((2 * num )+ (2 * num2));
 			System.out.println("Area: " + num3);
 			System.out.println("Perimeter: " + num4);
 
