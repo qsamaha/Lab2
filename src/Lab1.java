@@ -17,7 +17,7 @@ public class Lab1 {
 			System.out.println("Enter Width: ");
 			double num2 = scan.nextDouble();
 			double num3 = num * num2;
-			double num4 = num + num2;
+			double num4 = 2 * (num + num2);
 			System.out.println("Area: " + num3);
 			System.out.println("Perimeter: " + num4);
 
